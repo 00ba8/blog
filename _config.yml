@@ -85,4 +85,5 @@ exclude:
   - README.md
   - CNAME
 
-theme: minimalist
+ theme: jekyll-theme-minimal
+ 
