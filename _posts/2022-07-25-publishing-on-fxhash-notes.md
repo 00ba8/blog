@@ -3,7 +3,7 @@ layout: post
 title: Notes on publishing on fxhash
 ---
 
-##### Dependencies
+##### Deps
 
 All dependencies should be included locally with the main scripts, e.g. in case of
 p5js, the p5.min.js should be included and referenced locally, no CDNs or other
@@ -61,3 +61,8 @@ function saveImage() {
 Note the resetting of the window as such and regenerating the content.
 This is again the simplest scenario with no `draw()`, where canvas content
 is fully generated within `setup()` for static, single frame output.
+
+##### Testing
+
+If access to different OS's and browsers is available, allow some time to test
+on as many different browsers as possible.
