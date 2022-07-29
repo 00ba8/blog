@@ -5,7 +5,7 @@ layout: default
   fxhash <a href="https://www.fxhash.xyz/u/supa8" target="_blank" rel="noopener noreferrer">projects</a>
 </div>
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
