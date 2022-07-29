@@ -5,11 +5,11 @@ title: fxhash graphql api
 
 fxhash exposes a graphql api, more on the topic here:
 
-https://www.fxhash.xyz/doc/fxhash/integration-guide
+[Integration guide](https://www.fxhash.xyz/doc/fxhash/integration-guide)
 
 quick and easy client to explore the api:
 
-https://studio.apollographql.com/sandbox/explorer
+[API Explorer](https://studio.apollographql.com/sandbox/explorer)
 
 sample python mockup to list the upcoming projects:
 
@@ -61,7 +61,7 @@ query_vars = {
 result = client.execute(query, variable_values=query_vars)
 ```
 
-and some extension for above to generate a google calendar url for a notification:
+and some extension for above to generate a google calendar url for a notification with some metadata:
 
 
 ```
@@ -96,8 +96,8 @@ for item in result['generativeTokens']:
         print('CAL: ' + cal + text + dates + details)
 ```
 
-the explorer at https://studio.apollographql.com/sandbox/explorer has a very nice intuitive query builder
+the explorer at [api explorer](https://studio.apollographql.com/sandbox/explorer) has a very nice intuitive query builder
 
 the fxhash website uses the same api to present the content as well, one can checkout queries by inspecting
 the requests in the web browsers dev tools - network console (look for https://api.fxhash.xyz/graphql calls),
-more in the integration guide: https://www.fxhash.xyz/doc/fxhash/integration-guide
+more in the integration guide: [integration guide](https://www.fxhash.xyz/doc/fxhash/integration-guide)
