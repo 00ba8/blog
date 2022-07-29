@@ -96,7 +96,7 @@ for item in result['generativeTokens']:
         print('CAL: ' + cal + text + dates + details)
 ```
 
-the explorer at [api explorer](https://studio.apollographql.com/sandbox/explorer) has a very nice intuitive query builder
+the [api explorer](https://studio.apollographql.com/sandbox/explorer) has a very nice intuitive query builder
 
 the fxhash website uses the same api to present the content as well, one can checkout queries by inspecting
 the requests in the web browsers dev tools - network console (look for https://api.fxhash.xyz/graphql calls),
