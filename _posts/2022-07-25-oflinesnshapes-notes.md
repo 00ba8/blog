@@ -10,7 +10,7 @@ Blending colors, as well as some texture overlay.
 
 Original sketch leading to the project creation:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/generative?src=hash&amp;ref_src=twsrc%5Etfw">#generative</a> <a href="https://twitter.com/hashtag/p5js?src=hash&amp;ref_src=twsrc%5Etfw">#p5js</a> <br>scribbles 📝 <a href="https://t.co/0wmXiOUcdu">pic.twitter.com/0wmXiOUcdu</a></p>&mdash; supa8 (@_supa8) <a href="https://twitter.com/_supa8/status/1547700615802851340?ref_src=twsrc%5Etfw">July 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/generative?src=hash&amp;ref_src=twsrc%5Etfw">#generative</a> <a href="https://twitter.com/hashtag/p5js?src=hash&amp;ref_src=twsrc%5Etfw">#p5js</a> <br>scribbles 📝 <a href="https://t.co/0wmXiOUcdu">pic.twitter.com/0wmXiOUcdu</a></p>&mdash; 0x8 <a href="https://twitter.com/0x00ba8/status/1547700615802851340?ref_src=twsrc%5Etfw">July 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ##### Squares as lines:
 Pretty straightforward, decide on amout of lines and draw moving points on an axis for the given amount:
